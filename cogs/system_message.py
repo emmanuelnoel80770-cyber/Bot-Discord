@@ -18,4 +18,3 @@ class system_message(commands.Cog):
 async def setup(bot):
    await bot.add_cog(system_message(bot))
    print('Cog system_message chargé avec succès')
-
